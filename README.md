@@ -10,7 +10,16 @@ sudo apt install git  -y
 
 ----------------------------------
 
-# Installation
+# Install And Run Script
+
+
+```bash
+sudo bash -c "git clone https://github.com/cektor/Grub-fsck-Script.git && cd Grub-fsck-Script && chmod +x grub.sh && bash grub.sh"
+```
+
+----------------------------------
+
+# Compilation Script
 ```bash
 sudo git clone https://github.com/cektor/Grub-fsck-Script.git
 ```
